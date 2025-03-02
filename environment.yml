@@ -1,0 +1,23 @@
+name: mec4131z-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - pypsa
+  - jupyter
+  - ipywidgets
+  - seaborn
+  - networkx
+  - pip
+  - pip:
+      - google-colab
+      - tqdm
+      - pyomo
+      - gurobipy
+      - openpyxl
+      - xlrd
