@@ -62,23 +62,5 @@ def install_colab_dependencies():
 
     print("Installation complete.")
 
-    drive.mount('/content/drive')
-    folder_path = f'/content/drive/My Drive/{folder_name}'
-    if not os.path.exists(folder_path): os.makedirs(folder_path)
-    os.chdir(folder_path)
-
-    markdown_content = f"""
-    Folder '{folder_path}' is ready to use. <br><br>
-
-    Open Google Drive and upload the excel model file to:
-
-    [{folder_name}](https://drive.google.com/drive/my-drive)
-
-    (this link will open in a new tab)
-    """
-
-    # Display the markdown content
-    display(Markdown(markdown_content))
-
 
 
