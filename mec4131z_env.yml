@@ -4,7 +4,7 @@ channels:
 dependencies:
   - python=3.12
   - ipywidgets
-  - pypsas
+  - pypsa
   - numpy
   - pandas
   - plotly

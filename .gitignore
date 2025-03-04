@@ -10,6 +10,14 @@ lesson9_csv_folder/
 myenv/
 __pycache__/
 
+PG-Lesson 1 Environment setup.ipynb
+PG-Lesson 2 Python Introduction.ipynb
+PG-Lesson 3 Numpy and Pandas.ipynb
+PG-Lesson 4 Building a PyPSA Model.ipynb
+PG-Lesson 5 Modelling reserves.ipynb
+PG-Lesson 6 ZA-Hourly_flex.ipynb
+PG-Lesson 7 Hydropower Modelling.ipynb
+PG-Lesson 8 Market Model.ipynb
 
 # Ignore hidden files (e.g., .DS_Store on macOS) within the folders
 myenv/**/*
